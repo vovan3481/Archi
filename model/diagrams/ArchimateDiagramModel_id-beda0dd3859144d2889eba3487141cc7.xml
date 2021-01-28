@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Default View"
-    id="id-beda0dd3859144d2889eba3487141cc7">
+    id="id-beda0dd3859144d2889eba3487141cc7"
+    viewpoint="organization">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ee22a2c9b5294f67b7a3265bbb1f1ac8"
@@ -36,5 +37,40 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-0d10b636b32441e6a7433248d3eca9f1.xml#id-0d10b636b32441e6a7433248d3eca9f1"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-1254f476588848448d5f784677ae70f2">
+    <bounds
+        x="288"
+        y="119"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Location"
+        href="Location_id-a40da9a915c746be9b0e2d8071d42d8f.xml#id-a40da9a915c746be9b0e2d8071d42d8f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2257872ea53c4987a7eb2ac7396469b6"
+      textAlignment="1"
+      content="test">
+    <bounds
+        x="486"
+        y="62"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f1ba132fcbb64977ac79452d6816381a">
+    <bounds
+        x="449"
+        y="210"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessCollaboration"
+        href="BusinessCollaboration_id-8fbef1f1ec3647fe815a65fd77a8d909.xml#id-8fbef1f1ec3647fe815a65fd77a8d909"/>
   </children>
 </archimate:ArchimateDiagramModel>
